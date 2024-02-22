@@ -6,7 +6,7 @@ import java.util.List;
 
 @Data
 public class Item {
-    private String id;
+    private Long id;
     private String itemName;
     private UploadName attachFile;
     private List<UploadName> imageFiles;
